@@ -1,1 +1,1 @@
-Going through the Odin prohject again brushing up HTML basics
+Going through the Odin Project again brushing up HTML basics.
