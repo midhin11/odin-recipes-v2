@@ -1,1 +1,1 @@
-# odin-recipes2
+Going through the Odin prohject again brushing up HTML basics
