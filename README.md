@@ -1,1 +1,1 @@
-Going through the Odin Project again brushing up HTML basics.
+Going through the Odin Project again brushing up HTML basics. Adding in CSS basics I learnt as well including some basic properties and box model for layout.
