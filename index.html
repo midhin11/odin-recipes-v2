@@ -3,13 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <ul type="disc">
-            <li><a href="recipes/lasagna.html">Lasagna</a><br></li>
-            <li><a href="recipes/protein-balls.html">Protein Balls</a></li>
-            <li><a href="recipes/homemade-pizza.html">Homemade Pizza</a></li>
-        </ul>
+        <div class="container">
+            <h1>Odin Recipes</h1>
+            <ul class="recipe-name-container">
+                <li class="recipe-name"><a href="recipes/lasagna.html"><button>Lasagna</button> </a></li>
+                <li class="recipe-name"><a href="recipes/protein-balls.html"><button>Protein Balls</button></a></li>
+                <li class="recipe-name"><a href="recipes/homemade-pizza.html"><button>Homemade Pizza</button></a></li>
+            </ul>
+
+            <ul class="recipe-img-container">
+                <a href="recipes/lasagna.html">
+                    <li class="recipe-img"> <img src="images/Lasagna.jpg" alt="Delicious lasagna dish"> </li>
+                </a>
+                <a href="recipes/protein-balls.html">
+                    <li class="recipe-img"> <img src="images/Protein-balls.jpg" alt="Delicious protein balls"> </li>
+                </a>
+                <a href="recipes/homemade-pizza.html">
+                    <li class="recipe-img"> <img src="images/homemade-pizza.jpg" alt="Delicious homemade pizza"> </li>
+                </a>
+            </ul>
+        </div>
     </body>
 </html>

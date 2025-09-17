@@ -1,0 +1,78 @@
+/* index.html */
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: oklch(91.7% 0.08 205.041);
+}
+
+.recipe-name {
+    padding-bottom: 5px;
+    display: inline;
+    margin-right: 45px;
+    text-align: center;
+    list-style: none;
+}
+
+ul.recipe-name-container {
+    /* border: 2px solid green; */
+    margin: 20px auto 50px;
+    width: 458px;
+}
+
+button {
+    background-color: transparent;
+    color: bisque;
+    border: 1px solid bisque;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: bisque;
+    color: oklch(30.2% 0.056 229.695);;
+}
+
+.recipe-img {
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+ul.recipe-img-container {
+    /* border: 2px solid green; */
+    margin: 10px auto 10px;
+    width: 830px;
+}
+
+.container {
+    /* border: 1px solid black; */
+    margin: 40px;
+    /* background-color: oklch(29.3% 0.066 243.157) */
+}
+
+h1 {
+    font-size: 36px;
+    /* border: 2px solid red; */
+    padding: 5px 20px;
+    text-align: center;
+    font-weight: 800;
+    color: bisque;
+    text-transform: uppercase;
+}
+
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: oklch(30.2% 0.056 229.695);
+}
+
+/* ul {
+    border: 2px solid green;
+    margin: -10px auto 10px;
+    width: 458px;
+} */
+
+img {
+    width: 250px;
+    height: auto;
+}
