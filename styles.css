@@ -1,9 +1,14 @@
-/* index.html */
+/* index.html styles */
 
 ul li a {
     text-decoration: none;
     font-size: 18px;
     color: oklch(91.7% 0.08 205.041);
+}
+
+.recipe-img-container a {
+    list-style: none;
+    text-decoration: none;
 }
 
 .recipe-name {
@@ -17,7 +22,7 @@ ul li a {
 ul.recipe-name-container {
     /* border: 2px solid green; */
     margin: 20px auto 50px;
-    width: 458px;
+    width: 700px;
 }
 
 button {
@@ -26,6 +31,7 @@ button {
     border: 1px solid bisque;
     padding: 10px;
     cursor: pointer;
+    width: 185px;
 }
 
 button:hover {
@@ -52,16 +58,17 @@ ul.recipe-img-container {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 40px;
     /* border: 2px solid red; */
     padding: 5px 20px;
     text-align: center;
     font-weight: 800;
     color: bisque;
     text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-body {
+body.home {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: oklch(30.2% 0.056 229.695);
 }
@@ -75,4 +82,51 @@ body {
 img {
     width: 250px;
     height: auto;
+}
+
+
+/* ./recipes styles */
+
+.recipe-container {
+    border: 3px solid darkred;
+    width: 1000px;
+    background-color: oklch(30.2% 0.056 229.695);
+    color: white;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px auto;
+}
+
+.recipe-page-background{
+    background-color: bisque;
+}
+
+h3, h2 {
+    padding-left: 20px;
+    font-size: 24px;
+    color: bisque;
+}
+
+.return-home {
+    display: block;
+    margin: 30px auto;
+    /* border: 1px solid wheat; */
+    width: max-content;
+    color: bisque;
+    font-weight: 700;
+}
+
+.desc {
+    padding: 0px 20px 10px 20px;
+}
+
+.image {
+    display: block;
+    width: max-content;
+    margin: 0px auto;
+    width: 350px;
+}
+
+ol.steps {
+    padding: 0px 30px 10px 45px;
 }
